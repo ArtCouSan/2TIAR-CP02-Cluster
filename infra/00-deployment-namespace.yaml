@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: shakespeare-app
-        image: localhost:32000/shakespearepy:v1
+        image: localhost:32000/shakespeare:v1
         ports: 
         - containerPort: 80
