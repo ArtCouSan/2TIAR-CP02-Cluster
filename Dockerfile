@@ -11,4 +11,4 @@ RUN pip install --no-cache-dir
 COPY . .
 
 # Define o comando padrão a ser executado quando o contêiner for iniciado
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
