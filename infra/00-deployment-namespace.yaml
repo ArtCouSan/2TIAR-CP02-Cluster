@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Deployment
 metadata:
-  name: 'green'
+  name: 'deployment'
 spec: 
   replicas: 3
   selector: 
