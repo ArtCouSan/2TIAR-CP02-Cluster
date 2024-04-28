@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"  # Mapeia a porta do contêiner para a porta do host (altere conforme necessário)
+    volumes:
+      - .:/app       # Monta o diretório atual como volume dentro do contêiner
